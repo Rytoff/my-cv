@@ -17,6 +17,23 @@ body {
   border-radius: 8px;
 }
 
+#personal-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#personal-info img.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#personal-info .details {
+  flex: 1;
+}
+
 h1 {
   font-size: 28px;
   margin-bottom: 5px;
